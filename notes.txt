@@ -1,0 +1,14 @@
+How can loops contribute toward DRY code? Why is DRY code important?
+-Loops allow us to reduce the lines written by automating things such as
+string concatination or array mutation. Dry code is important because
+it forces us to make our code easier to change or modify later on.
+
+If we used forEach() to loop through an array called 'kittens', what should 
+we call the parameter in the forEach() function? Why?
+- We would call the parameter by a singular identifier rather than plural
+(kitten) as we are only referencing a single index of the array. We do this
+to make our code easier to understand.
+
+What does the += operator do?
+-The += operator adds the variable to whatever variable you are adding it to.
+(i = i + b;/ i += b;)
